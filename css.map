@@ -1,0 +1,20 @@
+Selectors:
+  tag-name:
+    h1, h2, div, span, ul, li, ...
+  class-name:
+    .header, .main, ..
+  id:
+    #name, #email, ...
+  universal:
+    *
+    div *
+  combined:
+    h1.header (tag + class-name)
+    input#name (tag + id)
+    div#title.center (tag + id + class-name)
+Psuedo Selectors:
+  ::after
+  ::before
+  :hover
+  :nth-child()
+  
